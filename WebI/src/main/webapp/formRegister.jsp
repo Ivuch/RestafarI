@@ -13,7 +13,7 @@
 		</div>
 		<div id="container-center">
 			<form action="rest/user" method="POST">
-			<label>Nombre:</label> <input type="text" name="name"><br/>
+			<label>Nombres:</label> <input type="text" name="name"><br/>
 			<label>Apellido: </label> <input type="text" name="lname"><br/>
 			<label>Contraseña: </label> <input type="password" name="pass"><br/>
 			<label>Confirmar Contraseña: </label> <input type="password" name="confirmPass"><br/>
