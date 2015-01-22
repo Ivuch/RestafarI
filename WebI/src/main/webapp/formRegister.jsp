@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/validateForm.css" />
 <title>¡Bienvenido a RESTafar I!</title>
 </head>
 <body>
