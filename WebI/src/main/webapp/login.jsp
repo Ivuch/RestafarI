@@ -18,7 +18,7 @@
 		</div>
 		<div id="container-center">
 			<div id="login-container">
-				<form >
+				<form action="rest/auth" method="POST" onsubmit="return validate()">
 					<input type="text" name="user" class="validate"/>
 					<input type="password" name="pass" class="validate"/>
 					<input type="submit" id="validate"/>

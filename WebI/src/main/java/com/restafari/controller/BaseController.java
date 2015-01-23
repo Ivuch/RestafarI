@@ -10,9 +10,9 @@ public class BaseController {
  
 	@GET
 	@Path("/{param}")
-	public Response getMsg(@PathParam("param") String msg) {
+	public Response getMsg(@PathParam("param") String msgs) {
  
-		String output = msg;
+		String output = msgs;
  
 		return Response.status(200).entity(output).build();
  

@@ -9,7 +9,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
-import com.restafari.DBConnections.MongoDBConnection;
+import com.restafari.dbconnections.MongoDBConnection;
  
 
 @Path("/auth")

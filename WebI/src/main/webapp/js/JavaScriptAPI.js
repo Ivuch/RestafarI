@@ -1,8 +1,8 @@
 <!-- This is the fully JavaScript code -->
 	function validate(){
 		var response = documet.getElementsByClassName("validable");
-		for(i=0, i<response.lenght(),i++){
-			x[i].innerHTML = "Hello World!"+i;
+		if(response[0]!= null || response[0]!=""){
+		alert("user empty");
 		}
 	}
 	<!-- AJAX  -->

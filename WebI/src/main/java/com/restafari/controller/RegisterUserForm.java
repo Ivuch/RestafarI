@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
-import com.restafari.DBConnections.MongoDBConnection;
+import com.restafari.dbconnections.MongoDBConnection;
 
 @Path("/user")
 public class RegisterUserForm {

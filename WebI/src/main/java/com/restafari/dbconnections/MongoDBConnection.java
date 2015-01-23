@@ -1,4 +1,4 @@
-package com.restafari.DBConnections;
+package com.restafari.dbconnections;
 
 import java.net.UnknownHostException;
 
