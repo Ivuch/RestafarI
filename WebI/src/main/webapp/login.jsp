@@ -21,7 +21,7 @@
 				<form action="rest/auth" method="POST" onsubmit="return validate()">
 					<input type="text" name="user" class="validate"/>
 					<input type="password" name="pass" class="validate"/>
-					<input type="submit" id="validate"/>
+					<input type="submit" />
 					<a href="formRegister.jsp">don't have account?</a><a href="formRegister.jsp">Register</a>
 				</form>
 			</div>

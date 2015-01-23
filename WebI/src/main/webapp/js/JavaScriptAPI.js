@@ -1,9 +1,11 @@
 <!-- This is the fully JavaScript code -->
 	function validate(){
-		var response = documet.getElementsByClassName("validable");
-		if(response[0]!= null || response[0]!=""){
+		var response = document.getElementsByClassName("validate");
+		if(response[0]== null || response[0].innerText==""){
 		alert("user empty");
+		return false;
 		}
+		else{return true}
 	}
 	<!-- AJAX  -->
 	function clear5(){
