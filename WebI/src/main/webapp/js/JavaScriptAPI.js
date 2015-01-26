@@ -1,7 +1,7 @@
 <!-- This is the fully JavaScript code -->
 	function validate(){
-		var response = document.getElementsByClassName("validate");
-		if(response[0]== null || response[0].innerText==""){
+		var response = document.getElementsById("userr");
+		if(response != null || response.value==""){
 		alert("user empty");
 		return false;
 		}

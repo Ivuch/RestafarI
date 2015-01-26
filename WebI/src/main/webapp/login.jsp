@@ -14,16 +14,21 @@
 	<div id="body">
 		<div id="container-left">
 			<div class="linkToResource"><a href="index.jsp">HOME</a></div>
+			<div class="linkToResource"><a href="cube.jsp">Cube!</a></div>
 			<div id="msgid"></div>
 		</div>
 		<div id="container-center">
 			<div id="login-container">
 				<form action="rest/auth" method="POST" onsubmit="return validate()">
-					<input type="text" name="user" class="validate"/>
-					<input type="password" name="pass" class="validate"/>
+					<input type="text" name="user" id="userr"/>
+					<input type="password" name="pass" id="passs"/>
 					<input type="submit" />
 					<a href="formRegister.jsp">don't have account?</a><a href="formRegister.jsp">Register</a>
 				</form>
+				<div id="beaker">
+					<span class="bubble"> <span class="glow"> </span>
+				</span>
+			</div>
 			</div>
 		</div>
 		<div id="container-right">Monkey D. Luffy - Ivuch D. Kong</div>
