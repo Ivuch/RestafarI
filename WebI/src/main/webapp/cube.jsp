@@ -6,44 +6,31 @@
     <!-- Originally posted: 17th July 2009 -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>3D CSS cube, use arrow keys to rotate &mdash; Paul Hayes</title>
+    <title>3D CSS cube</title>
     <meta name="author" content="Paul Hayes" />
-    <link rel="canonical" href="http://www.paulrhayes.com/experiments/cube-3d/" />
-    <link rel="stylesheet" href="../experiment-styles.css" />
-
     <link rel="stylesheet" href="css/cube.css" />
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body class="experiment">
-    <div class="wrapper">
-        <p class="learn">
-            This is a demo, <a href="http://www.paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/">learn how it works</a>.
-        </p>
 <div id="experiment">
     <div id="cube">
         <div class="face one">
-            One face
         </div>
         <div class="face two">
-            Up, down, left, right
         </div>
         <div class="face three">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </div>
         <div class="face four">
-            New forms of navigation are fun.
         </div>
         <div class="face five">
-            Rotating 3D cube
         </div>
         <div class="face six">
-            <img src="images/sonic.gif" />
         </div>
     </div>
 </div>
-
-    </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<div class="linkToResource"><a href="index.jsp">HOME</a></div>
+<div class="linkToResource"><a href="login.jsp">login!</a></div>
+    <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/cube.js"></script>
 </body>
 </html>
