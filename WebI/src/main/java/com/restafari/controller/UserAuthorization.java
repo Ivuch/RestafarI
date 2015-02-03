@@ -9,12 +9,20 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
-import com.restafari.dbconnections.MongoDBConnection;
- 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import com.restafari.dbconnections.MongoDBConnection;
+import com.restafari.validator.FormValidator;
+
+@Component
 @Path("/auth")
 public class UserAuthorization {
 	
+	 
+	@Autowired
+	FormValidator formValidator;
+
 	@POST
 	public Response getMsg(@FormParam("user") String user, 
 			@FormParam("pass") String pass) throws URISyntaxException {
@@ -36,6 +44,7 @@ public class UserAuthorization {
 		}else{
 			 output = "false";
 		}
+		formValidator.ValidateForm("hey");
 		
 		return Response.status(200).entity(output+user+pass+mongoDBC.getJSON()).build();
  

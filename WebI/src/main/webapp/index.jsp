@@ -40,7 +40,7 @@
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20response%20Ok');">LINK 1</a></div>
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20OP!');">LINK 1</a></div>
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/Ok?');">LINK 1</a></div>
-			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20response%20Ok');">LINK 1</a></div>
+			<div class="linkToResource"><a href="#" onClick="getHello('https://api.mercadolibre.com/users/1234');">MeLi user1234</a></div>
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20response%20Ok');">LINK 1</a></div>
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20response%20Ok');">LINK 1</a></div>
 			<div class="linkToResource"><a href="login.jsp" onClick="">GoTo/TheWeb!</a></div>
