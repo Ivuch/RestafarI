@@ -24,7 +24,7 @@ public class BaseController {
 	public Response getMsg(@PathParam("param") String msgs) {
  
 		String output = msgs;
-		UserRC.printUser1234();
+		UserRC.printUser1234();//Dentro de esta f(x)= se encuentra el problema de SSL
 		return Response.status(200).entity(output).build();
  
 	}

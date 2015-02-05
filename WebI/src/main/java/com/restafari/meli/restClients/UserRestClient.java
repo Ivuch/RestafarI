@@ -20,7 +20,7 @@ public class UserRestClient {
 		conn.setRequestMethod("GET");
 		conn.setRequestProperty("Accept", "application/json");
 		BufferedReader br = new BufferedReader(new InputStreamReader(
-			(conn.getInputStream())));
+			(conn.getInputStream())));//oAuth de MeLi talvez soluciona el problema de SSL (Secure Cocket Layer)
  
 		String output;
 		System.out.println("Output from Server .... \n");
