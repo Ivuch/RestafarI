@@ -33,7 +33,7 @@
 	<title>¡Bienvenido a RESTafar I!</title>
 </head>
 <body>
-	<div id="header"><p id="title">RESTafar I!</p></div>
+	<div id="header"><p id="title">Jah RESTafar I!</p></div>
 	<div id="body">
 		<div id="container-left">
 			<input id="searchEngineBox" type="search" placeholder="Search API REST..."/>
@@ -43,8 +43,9 @@
 			<div class="linkToResource"><a href="#" onClick="getHello('https://api.mercadolibre.com/users/1234');">MeLi user1234</a></div>
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20response%20Ok');">LINK 1</a></div>
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20response%20Ok');">LINK 1</a></div>
-			<div class="linkToResource"><a href="login.jsp" onClick="">GoTo/TheWeb!</a></div>
-			<div class="linkToResource"><a href="casa.jsp">Casa App!</a></div>
+			<div class="linkToResource"><a href="login.jsp" onClick="">Log-in To/TheWeb!</a></div>
+			<div class="linkToResource"><a href="casa/inicio.jsp">Casa App!</a></div>
+			<div class="linkToResource"><a href="functions/actualizetextlimit.jsp"><i>functios</i> App</a></div>
 		</div>
 		<div id="container-center">
 <!-- 			<p>Rastafar I es un movimiento, no una ideología, Rasta es el momento y no una idea estancada en el tiempo, esa es la diferencia. Jah es como lo llamamos, y por varias razones... Jah es el dios inicial del ser Humano desde tiempos inmemoriables, antes conocido como RA, el Dios del Sol, luego como Jahovia o Jehová, por el pueblo Judío, más tarde reencarnado en Jahsua, Yashua o Jesús (su nombre en lengua latina) para el cristianismo y luego como JAH o YHVH para el Rastafarismo. Por eso JAH, YA es el momento.</p>  -->

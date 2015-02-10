@@ -1,7 +1,7 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/style1.css" />
-<link rel="stylesheet" type="text/css" href="css/validateForm.css" />
+<link rel="stylesheet" type="text/css" href="../css/style1.css" />
+<link rel="stylesheet" type="text/css" href="../css/validateForm.css" />
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="js/jqueryAPI.js"></script>
 <script type="text/javascript" src="js/JavaScriptAPI.js"></script>
@@ -12,7 +12,7 @@
 	<div id="header">
 		<p id="title">RESTafar I!</p>
 		<nav>
-			<a class="ship" href="index.jsp">Home</a>
+			<a class="ship" href="../index.jsp">Home</a>
 			<a class="ship" href="#">Como</a>
 			<a class="ship" href="#">Contacto</a>
 		</nav>	
