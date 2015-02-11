@@ -45,7 +45,7 @@
 			<div class="linkToResource"><a href="#" onClick="getHello('http://localhost:8082/WebI/rest/hello/REST%20response%20Ok');">LINK 1</a></div>
 			<div class="linkToResource"><a href="login.jsp" onClick="">Log-in To/TheWeb!</a></div>
 			<div class="linkToResource"><a href="casa/inicio.jsp">Casa App!</a></div>
-			<div class="linkToResource"><a href="functions/actualizetextlimit.jsp"><i>functios</i> App</a></div>
+			<div class="linkToResource"><a href="functions/index.jsp"><i>functios</i> App</a></div>
 		</div>
 		<div id="container-center">
 <!-- 			<p>Rastafar I es un movimiento, no una ideología, Rasta es el momento y no una idea estancada en el tiempo, esa es la diferencia. Jah es como lo llamamos, y por varias razones... Jah es el dios inicial del ser Humano desde tiempos inmemoriables, antes conocido como RA, el Dios del Sol, luego como Jahovia o Jehová, por el pueblo Judío, más tarde reencarnado en Jahsua, Yashua o Jesús (su nombre en lengua latina) para el cristianismo y luego como JAH o YHVH para el Rastafarismo. Por eso JAH, YA es el momento.</p>  -->
